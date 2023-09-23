@@ -8,3 +8,18 @@ int main() {
 }
     return 0;
 }
+/////////////////////////////////
+
+#include <stdio.h>
+int main() {
+    int a,i=1,b;
+    printf("Enter No:");
+    scanf("%d",&a);
+    while(i<=a/2)
+    {
+      b=(i*2);
+      i++;
+      printf("%d\t",b);
+    }
+    return 0;
+}
