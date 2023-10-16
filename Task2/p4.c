@@ -15,5 +15,7 @@ int main() {
         if(b==a[i])
         printf("Number was found at index %d\n",i);
     }
+     if(b!=a[i])
+        printf("Number was NOT found");
     return 0;
 }
