@@ -16,7 +16,7 @@ int main() {
     }
     if(flag!=1)
         {
-            printf("Number was NOT found");
+            printf("Letter was NOT found");
         }
     return 0;
 }
